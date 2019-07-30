@@ -15,7 +15,7 @@ $color4: rgba(114, 25, 90, 1);
 $color5: rgba(105, 3, 117, 1); */
 
 body{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -60,6 +60,7 @@ i{
   border-bottom: solid 2px #bc4e9c;
   padding-bottom: 5px;
   color: #72195A;
+  font-weight: 700;
 }
 
 .content{

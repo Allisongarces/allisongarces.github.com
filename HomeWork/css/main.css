@@ -1,0 +1,367 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+ul {
+	list-style: none;
+}
+p {
+	color: #5a5a5a;
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	line-height: 24px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: 80px;
+    background-color:transparent;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.navbar-brand {
+	line-height: 80px;
+	padding: 0px;
+}
+
+.navbar-nav>li>a {
+	color: #FFFFFF !important;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	line-height: 80px;
+	padding: 0px;
+	letter-spacing: 0.5px;
+}
+
+.navbar-nav>li {
+	margin-left: 45px;
+}
+
+.header.active .navbar-nav>li>a {
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	color: #FFFFFF  !important;
+}
+
+.header.active {
+    background-color: rgba(250, 250, 250, 0.98);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.header.active .navbar-brand .logo{
+	margin-top: 22px;
+	display: inline-block;
+	width: 125px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+
+.header .navbar-brand {
+    font-weight: 700;
+}
+.navbar-inverse {
+	background-image: none;
+	background-color: transparent;
+}
+.header .navbar {
+    margin: 0;
+    border: none;
+}
+.cd-full-width{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 2.2em;
+  top: 0;
+  padding-top: 200px;
+  text-align: left;
+
+}
+
+#icono-barra{
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#introduccion{
+  padding: 80px 0px;
+  width: 100%;
+}
+
+#introduccion h3{
+  color: black;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+#introduccion .more{
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-align: center;
+  border:2px solid black;
+  border-style: solid none double none;
+  font-size: 0.7em;
+}
+}
+#blog h3{
+  color: black;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+#blog a{
+  color: black;
+  font-size: 1em;
+}
+
+#blog h4{
+  margin-bottom: 30px;
+}
+
+#blog .more{
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-align: center;
+  border:2px solid black;
+  border-style: solid none double none;
+  font-size: 0.7em;
+}
+
+#contactar h3{
+  color: white;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+#contactar .texto{
+  width: 500px;
+}
+
+#contactar p{
+  color: white;
+  font-size: 1.1em;
+}
+
+#contactar a{
+  color: white;
+  font-size: 1em;
+  margin-top: 50px;
+}
+
+#contactar .more{
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-align: center;
+  border:2px solid white;
+  border-style: solid none double none;
+  font-size: 0.7em;
+}
+
+#contactar{
+  height: 700px;
+  padding:200px 50px;
+  background-image:
+  linear-gradient(to bottom, rgba(23, 32, 42 , 0.8), rgba(253, 254, 254, 0.2)),
+  url('../Recursos/contact-bg.jpg');
+  background-position: center;
+}
+
+#contactar input {
+	padding-left: 15px;
+	font-size: 13px;
+	color: #fff;
+	background-color:transparent;
+	outline: none;
+	border: none;
+	box-shadow: none;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+#contactar textarea {
+  padding-left: 15px;
+	font-size: 13px;
+	color: #fff;
+	background-color:transparent;
+	outline: none;
+	border: none;
+	box-shadow: none;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+#contactar .icono {
+  margin-bottom: 30px;
+}
+
+#contactar .icono i {
+  color: #BFC9CA;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#contactar .icono i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #FDFEFE 0%, #FFFFFF 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#blog{
+  padding: 80px 0;
+}
+
+#blog .icono {
+  margin-bottom: 30px;
+}
+
+#blog .icono i {
+  color: #808B96;
+  font-size: 40px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#blog .icono i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #808B96 0%, #566573   100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tarjeta{
+  width: auto;
+  height: 300px;
+  padding: 80px 0;
+}
+
+#tarjeta .icono {
+  margin-bottom: 20px;
+}
+
+#tarjeta .icono i {
+  color: #808B96;
+  font-size: 40px;
+}
+
+#tarjeta .icono i:before {
+  background: white;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tarjeta p{
+  color: white;
+  font-weight: 700;
+}
+
+#tarjeta h3{
+  font-size: 2em;
+}
+
+#footer {
+	background-color: #202628;
+  margin: auto;
+	padding: 80px;
+  text-align: center;
+  height: 300px;
+	color: white;
+}
+
+#footer address {
+	font-size: 1.5em;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+#footer h2{
+  font-size: 2.3em;
+  font-style: italic;
+}
+
+#footer .icono {
+  margin-bottom: 30px;
+}
+
+#footer .icono i {
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#footer .icono i:hover {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #BFC9CA  0%, #FFFFFF 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#footer p{
+  margin-top: 10px;
+}
+
+#footer .Allison{
+  color: #F819D3  ;
+}
+
+
+#footer ul li a:hover {
+	color: #202628;
+	background-color: #5c9d7d;
+	transition: all 0.5s;
+}

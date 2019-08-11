@@ -2,6 +2,7 @@ let cerrar = document.querySelectorAll(".closed");
 
 //La funcion preventDefault hace que el evento clicl en el link, no se realice.
 cerrar.forEach(function(cerradito){
+
   cerradito.addEventListener('click',function(ev){
 
     ev.preventDefault();
@@ -17,6 +18,7 @@ cerrar.forEach(function(cerradito){
     setTimeout(function(){
       location.href = "../index.html";
     },600)
+
   })
 })
 

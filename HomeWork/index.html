@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Halo</title>
+
+    <!-- CDN Bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Tipo de Letra, Fuente de Google -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap" rel="stylesheet">
+
+    <!-- Archivos CSS usados-->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Favicon de la pagina -->
+    <link href="Recursos/favicon.ico" rel="icon">
+
+  </head>
+
+  <body>
+
+    <!-- Barra de navegacion :) -->
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-dark">
+          <a class="navbar-brand" href="#" style="font-size:2em;">HALO</a>
+          <ul class="nav justify-content-end" style="color:white;">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home" style="color:white;">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#introduccion" style="color:white;">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria" style="color:white;">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog" style="color:white;">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactar" style="color:white;">CONTACT US</a>
+            </li>
+            <li>
+              <a href="#" style="color:white;"><i class="fa fa-search" id="icono-barra" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Termina barra de navegacion. -->
+
+    <!-- Carrusel y Titulo de la pagina. -->
+    <header class="cd-hero" id="home">
+      <div id="carouselExampleInterval" class="carousel slide cd-hero-slider bg-transparent" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <img src="Recursos/hero-slider/1.jpg" class="d-block w-100" alt="...">
+            <div class="cd-full-width">
+                <div class="tm-slide-content-div slide-caption">
+                    <h1><span style="font-size:3em;">HALO <br> </span>
+                    <span style="font-size:1.8em">We Create Awesome <br> Photographies and more </span><h1>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="Recursos/hero-slider/2.jpg" class="d-block w-100" alt="...">
+            <div class="cd-full-width">
+                <div class="tm-slide-content-div slide-caption">
+                    <span style="font-size:5em;">HALO <br> </span>
+                    <span style="font-size:3.5em">We Create Awesome <br> Photographies and more </span>
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <i class="fa fa-angle-double-right fa-3x" aria-hidden="true"></i>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Termina Carrusel y Titulo de la pagina -->
+
+    <!-- About us -->
+
+    <div class="container" id="introduccion">
+      <div class="row">
+        <div class="col-5">
+          <p>AMAZING STUDIO</p>
+          <h3>WE ARE SO <br> CREATIVE </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+          <span class="more">READ MORE</span>
+        </div>
+        <div class="col-7">
+          <img src="Recursos/intro.jpg" alt="" width="97%">
+        </div>
+     </div>
+    </div>
+
+    <!-- Termina About us -->
+
+    <!-- Portfolio -->
+
+    <section class="container" id="galeria">
+      <div class="row">
+        <div class="col-4">
+            <img src="Recursos/portfolio/1.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+        <div class="col-4">
+            <img src="Recursos/portfolio/2.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+        <div class="col-4">
+            <img src="Recursos/portfolio/3.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+            <img src="Recursos/portfolio/4.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+        <div class="col-3">
+            <img src="Recursos/portfolio/5.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+        <div class="col-3">
+            <img src="Recursos/portfolio/6.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+        <div class="col-3">
+          <img src="Recursos/portfolio/7.jpg" class="card-img-top" alt="..." height="300">
+        </div>
+      </div>
+
+      <div class="row bg-dark text-center" id="tarjeta">
+        <div class="col-12 bg-dark">
+          <div class="row">
+            <div class="col-3">
+              <div class="icono"><i class="fa fa-gamepad" aria-hidden="true"></i></div>
+              <h3>48</h3>
+              <p>VIDEO GAMES</p>
+            </div>
+            <div class="col-3">
+              <div class="icono"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+              <h3>7</h3>
+              <p>AWARDS WON</p>
+            </div>
+            <div class="col-3">
+              <div class="icono"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+              <h3>23 K</h3>
+              <p>PICTURES TAKEN</p>
+            </div>
+            <div class="col-3">
+              <div class="icono"><i class="fa fa-laptop" aria-hidden="true"></i></div>
+              <h3>19</h3>
+              <p>VIDEO TUTORIALS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Termina Portfolio -->
+
+    <!-- Blog -->
+
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p>AMAZING STUDIO</p>
+            <h3 style="color:black;">SEE WHAT WE<br>OFFER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            <span class="more">READ MORE</span>
+          </div>
+
+          <div class="col-7">
+            <div class="row">
+              <div class="col-6">
+                <div class="icono"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+                <h4><a href="">VIDEO FOOTAGES</a></h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              <div class="col-6">
+                <div class="icono"><i class="fa fa-camera-retro" aria-hidden="true"></i></i></div>
+                <h4 class="title"><a href="">PHOTO SHOOTINGS</a></h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="col-6">
+                <div class="icono"><i class="fa fa-archive" aria-hidden="true"></i></i></div>
+                <h4 class="title"><a href="">PHOTO ALBUMS</a></h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="col-6">
+                <div class="icono"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                <h4 class="title"><a href="">ORIGINAL IDEAS</a></h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-1" style="margin:auto">
+            <div class="icono"><i class="fa fa-angle-double-right" aria-hidden="true"</i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Termina Blog -->
+
+    <!-- Contactar, redes sociales y formulario -->
+    <section class="container-expand" id="contactar">
+      <div class="row justify-content-center">
+        <div class="col-4" class="texto">
+          <p>AMAZING STUDIO</p>
+          <h3>STAY IN TOUCH</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+          <ul>
+            <li class="icono"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>+45 677 8993000 223</li>
+            <li class="icono"><i class="fa fa-envelope-o" aria-hidden="true"></i>office@template.com</li>
+            <li class="icono"><i class="fa fa-map-marker" aria-hidden="true"></i>Main str. no 45-46, b3, 56832, Los Angeles, CA </li>
+          </ul>
+        </div>
+
+          <form class="col-8">
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label>Your name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group col-6">
+                <label>E-mail</label>
+                <input type="email" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputAddress">Subject</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Message</label>
+              <textarea type="text" class="form-control"></textarea>
+            </div>
+            <br>
+            <a href="#"><span class="more">SEND</span></a>
+          </form>
+
+
+      </div>
+    </section>
+
+    <!-- Termina Contactar -->
+
+    <!-- Footer -->
+
+    <footer class="container-extend" id="footer">
+      <div class="row justify-content-center">
+        <div class="">
+          <h2>Let's work together!</h2>
+          <address class="">office@template.com</address>
+          <div class="">
+            <a href="#" class="icono"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            <a href="#" class="icono"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="icono"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="icono"><i class="fa fa-smile-o" aria-hidden="true"></i></a>
+          </div>
+          <p>Copyright &copy 2019 All rights reserved | This page is a homework of <a href="#" class="Allison">Allison Garces</a> </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Termina Footer -->
+
+    <!-- CDN JavaScript jquery, popper y bootstrap-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
